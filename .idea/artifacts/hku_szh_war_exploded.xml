@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="hku-szh:war exploded">
+    <output-path>$PROJECT_DIR$/target/hku-szh</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="hku-szh" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/hku-szh/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="hku-szh/web/Web" />
+    </root>
+  </artifact>
+</component>
